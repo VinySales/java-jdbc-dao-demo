@@ -10,6 +10,7 @@ public class Main {
 		SellerDao obj = DaoFactory.createSellerDao();
 		Seller seller = obj.findById(2);
 		
+		System.out.println("====== TEST 1 - SELLER - FIND BY ID ======");
 		System.out.println(seller);
 		
 	}
